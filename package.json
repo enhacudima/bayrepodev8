@@ -1,0 +1,52 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.0.0",
+        "axios": "^0.18.0",
+        "bootstrap": "^4.0.0",
+        "cross-env": "^5.2.0",
+        "jquery": "^3.4.0",
+        "laravel-mix": "^4.0.15",
+        "lodash": "^4.17.5",
+        "popper.js": "^1.12",
+        "resolve-url-loader": "^2.3.1",
+        "sass": "^1.18.0",
+        "sass-loader": "^7.1.0",
+        "vue": "^2.6.10",
+        "vue-template-compiler": "^2.6.10"
+    },
+    "dependencies": {
+        "acorn-dynamic-import": "^4.0.0",
+        "debounce": "^1.2.0",
+        "laravel-echo": "^1.5.3",
+        "material-design-icons-iconfont": "^3.0.3",
+        "pusher-js": "^4.4.0",
+        "v-tooltip": "^2.0.0-rc.33",
+        "vstx-data-table": "^0.4.5",
+        "vue-axios": "^2.1.4",
+        "vue-laravel-table-component": "^0.1.4",
+        "vue-materialize-datatable": "^0.7.6",
+        "vue-text-highlight": "^1.1.2",
+        "vue2-datatable-component": "^2.3.1",
+        "vuejs-datatable": "^1.7.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/enhacudima/bayrepodev.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/enhacudima/bayrepodev/issues"
+    },
+    "homepage": "https://github.com/enhacudima/bayrepodev#readme"
+}

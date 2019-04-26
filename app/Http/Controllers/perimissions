@@ -1,0 +1,38 @@
+Myticket 
+name=> myticket-;
+
+myticket-creat-edit['gravar','reopenticket','savecoment','updateticketclient','updateticketnonclient']
+myticket-admin['thiscategory','savecategories','agents','categories','updatethiscategory','teams','saveteam','thisteam','updatethisteam']
+myticket-customercare ['sendtoorgin','deleteteamlistlevel','addteamticket','closeticket','addlevel']
+myticket-view['myticket','completticket','viewthisticket','detalhes','searchcabecalho']
+myticket-coment['savecoment']
+myticket-complet['completeteamtask']
+
+
+Arquivo Master
+name => arquivomaster-;
+
+ $this->middleware('permission:arquivomaster-view', ['only' => ['arquivosearchinformation','arquivosearchformulario','arquivosearchnfom','arquivomaster','arquivoreferencias','arquivopaineitest']]);
+ $this->middleware('permission:arquivomaster-save', ['only' => ['arquivogravar','arquivoreferencia']]);
+ $this->middleware('permission:arquivomaster-report', ['only' => ['arquivoreportindexreport','arquivofiltroreport']]);
+
+
+Payment Plan
+name => planodepagament-;
+
+planodepagamento-make['meke']
+planodepagamento-import['importdata','import']
+
+
+Recibos 
+name => recibos-;
+
+recibos-view['recibos-view']
+
+QA
+name => qa-;
+qa-nib;
+qa-sal;
+qa-new;
+
+
